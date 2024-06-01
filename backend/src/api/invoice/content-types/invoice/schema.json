@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "invoices",
+  "info": {
+    "singularName": "invoice",
+    "pluralName": "invoices",
+    "displayName": "Invoices"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "senderEmail": {
+      "type": "email"
+    },
+    "recipientEmail": {
+      "type": "email"
+    },
+    "date": {
+      "type": "date"
+    },
+    "dueDate": {
+      "type": "date"
+    },
+    "shippingAddress": {
+      "type": "text"
+    },
+    "invoiceNote": {
+      "type": "text"
+    },
+    "description": {
+      "type": "string"
+    },
+    "qty": {
+      "type": "integer"
+    },
+    "rate": {
+      "type": "integer"
+    },
+    "total": {
+      "type": "integer"
+    }
+  }
+}
